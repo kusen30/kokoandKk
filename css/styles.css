@@ -64,3 +64,20 @@ p {
         font-size: 2.4rem;
     }
 }
+
+/* TODO: Links */
+
+/* TODO: Badges */
+
+/* Lists */
+.list {
+    list-style: none;
+    padding-left: 0;
+    text-transform: uppercase;
+}
+
+.list--inline .list__item {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
