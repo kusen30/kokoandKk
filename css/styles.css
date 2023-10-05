@@ -81,3 +81,17 @@ p {
     margin-right: 2rem;
 }
 
+/* Icons */
+.icon {
+    width: 100px;
+    height: 100px;
+}
+
+.icon--small {
+    width: 60px;
+    height: 60px;
+}
+
+.icon--primary {
+    fill: var(--color-body-darker);
+}
