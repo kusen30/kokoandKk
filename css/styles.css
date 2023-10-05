@@ -21,7 +21,7 @@ body {
     font-family: Inter, Arial, Helvetica, sans-serif;
     font-size: 2.4rem;
     line-height: 1.5;
-    color: var(--color-body);
+    background: tan;
 }
 
 h1, h2, h3 {
@@ -94,4 +94,52 @@ p {
 
 .icon--primary {
     fill: var(--color-body-darker);
+}
+
+.icon-container {
+
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+/* Buttons */
+.btn {
+    border: 0;
+    cursor: pointer;
+    font-size: 1.8rem;
+    font-weight: 550;
+    margin: 1rem 0;
+    outline: 0;
+    padding: 2rem 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: #fff;
+    letter-spacing: 0.5rem;
+}
+
+.btn--primary {
+    background: var(--color-body-darker);
+}
+
+.btn--primary .btn--transparent{
+    opacity: 0.5;
+}
+
+.btn--primary:hover {
+    background: #918ca4;
+}
+
+.btn--outline {
+    background: var(--color-body-darker);
+    border: 2px solid #fff;
+}
+
+.btn--outline:hover {
+    background: #fff;
+    border: 2px solid #000;
+    color: #000;
 }
