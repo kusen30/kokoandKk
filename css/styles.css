@@ -69,7 +69,7 @@ p {
 
 /* TODO: Badges */
 
-/* Lists */
+/* List */
 .list {
     list-style: none;
     padding-left: 0;
@@ -100,12 +100,12 @@ p {
 
 }
 
-/* Links */
+/* Link */
 a {
     text-decoration: none;
 }
 
-/* Buttons */
+/* Button */
 .btn {
     border: 0;
     cursor: pointer;
@@ -144,9 +144,9 @@ a {
     color: #000;
 }
 
-/* TODO: Inputs */
+/* TODO: Input */
 
-/* Images */
+/* Image */
 .image--cropped  {
     /* display: block;
     width: 100%;
@@ -163,7 +163,7 @@ a {
     margin-right: auto;
 }
 
-/* Plans */
+/* Plan */
 .plan {
     padding: 2rem 2rem;
     display: inline-block;
@@ -190,7 +190,7 @@ a {
 
 /* TODO: Media */
 
-/* TODO: Quotes */
+/* TODO: Quote */
 
 /* Grids */
 .grid {
@@ -207,4 +207,47 @@ a {
     .grid--1x3 {
         grid-template-columns: repeat(3, 1fr)
     }
+}
+
+/* TODO: Testimonial */
+
+/* TODO: Callout */
+
+/* Collapsible */
+.collapsible {
+    border-bottom: 1px solid #fff;
+    padding: 2rem 0rem
+}
+
+.collapsible__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.collapsible_heading {
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+.collapsible__toggler {
+    transform: rotate(-90deg);
+    transition: transform 0.3s;
+}
+
+.collapsible__content {
+    /* display: none; */
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.collapsible--expanded .collapsible__toggler {
+    transform: rotate(0);
+}
+
+.collapsible--expanded .collapsible__content {
+    /* display: block; */
+    max-height: 100vh;
+    opacity: 1;
 }

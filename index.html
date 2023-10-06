@@ -14,10 +14,31 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <div class="grid grid--1x3">
-      <div style="height: 100px; background: gold"></div>
-      <div style="height: 100px; background: dodgerblue"></div>
-      <div style="height: 100px; background: tomato"></div>
+    <div class="collapsible collapsible--expanded">
+      <header class="collapsible__header">
+        <h2 class="collapsible_heading">
+          Where will the ceremony and reception be Held
+        </h2>
+        <svg class="icon--small icon--white collapsible__toggler">
+          <use xlink:href="images/sprite.svg#chevron"></use>
+        </svg>
+      </header>
+      <div class="collapsible__content">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe minima
+        unde esse? Magni, qui non?
+      </div>
+    </div>
+    <div class="collapsible">
+      <header class="collapsible__header">
+        <h2 class="collapsible_heading">Where should I stay?</h2>
+        <svg class="icon--small icon--white collapsible__toggler">
+          <use xlink:href="images/sprite.svg#chevron"></use>
+        </svg>
+      </header>
+      <div class="collapsible__content">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe minima
+        unde esse? Magni, qui non?
+      </div>
     </div>
   </body>
 </html>
