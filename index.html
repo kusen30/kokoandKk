@@ -14,31 +14,31 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <nav class="nav collapsible">
-      <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
-      <svg class="icon icon--white nav__toggler">
-        <use xlink:href="images/sprite.svg#menu"></use>
-      </svg>
-      <ul class="list nav__list collapsible__content">
-        <li class="nav__item"><a href="#">Home</a></li>
-        <li class="nav__item"><a href="#">Our Story</a></li>
-        <li class="nav__item"><a href="#">Gallery</a></li>
-        <li class="nav__item"><a href="#">The Details</a></li>
-        <li class="nav__item"><a href="#">FAQs</a></li>
-      </ul>
-    </nav>
-    <nav class="nav collapsible">
-      <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
-      <svg class="icon icon--white nav__toggler">
-        <use xlink:href="images/sprite.svg#menu"></use>
-      </svg>
-      <ul class="list nav__list collapsible__content">
-        <li class="nav__item"><a href="#">Home</a></li>
-        <li class="nav__item"><a href="#">Our Story</a></li>
-        <li class="nav__item"><a href="#">Gallery</a></li>
-        <li class="nav__item"><a href="#">The Details</a></li>
-        <li class="nav__item"><a href="#">FAQs</a></li>
-      </ul>
-    </nav>
+    <div class="collapsible collapsible--expanded">
+      <header class="collapsible__header">
+        <h2 class="collapsible_heading">
+          Where will the ceremony and reception be Held
+        </h2>
+        <svg class="icon--small icon--white collapsible__toggler">
+          <use xlink:href="images/sprite.svg#chevron"></use>
+        </svg>
+      </header>
+      <div class="collapsible__content">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe minima
+        unde esse? Magni, qui non?
+      </div>
+    </div>
+    <div class="collapsible">
+      <header class="collapsible__header">
+        <h2 class="collapsible_heading">Where should I stay?</h2>
+        <svg class="icon--small icon--white collapsible__toggler">
+          <use xlink:href="images/sprite.svg#chevron"></use>
+        </svg>
+      </header>
+      <div class="collapsible__content">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe minima
+        unde esse? Magni, qui non?
+      </div>
+    </div>
   </body>
 </html>
