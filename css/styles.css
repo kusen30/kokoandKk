@@ -12,6 +12,9 @@
     --border-radius: 30px;
 }
 
+*, *::after, *::before {
+    box-sizing: border-box;
+}
 
 /* Typography */
 html {
@@ -217,6 +220,12 @@ a {
 @media screen and (min-width: 1024px) {
     .grid--1x3 {
         grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .grid--1x4 {
+        grid-template-columns: repeat(4, 1fr)
     }
 }
 
@@ -451,5 +460,51 @@ a {
     
     .hero__button {
         margin-top: 0;
+    }
+}
+
+/* Detail Box */
+.box {
+    background: #fff;
+    max-width: 25rem;
+    padding: 2rem 1rem;
+    opacity: 0.8;
+}
+
+.box__icon {
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+
+.box__button {
+    display: block;
+    margin: 2rem auto;
+    font-size: 1rem;
+}
+
+.box__separator{
+    max-width: 3rem;
+}
+
+.grid__container {
+    margin: 1rem;
+    justify-content: center;
+}
+
+.grid__container--items {
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .grid__container {
+        display: flex;
+        align-content: space-between;
+        width: auto;
+    }
+    
+    .grid__container--items {
+        margin: 1rem;
     }
 }
