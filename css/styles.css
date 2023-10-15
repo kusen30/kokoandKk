@@ -575,3 +575,24 @@ a {
     margin-right: auto;
     margin-left: auto;
 }
+
+/* Gallery */
+.gallery {
+    /* margin: 2rem; */
+    padding: 2rem;
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gallery__image {
+    max-width: 400px;
+    height: 300px;
+}
+
+.gallery__image:hover {
+    transform: scale(1.1);
+    border: 1px solid #ccc;
+}
