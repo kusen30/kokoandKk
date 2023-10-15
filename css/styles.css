@@ -488,23 +488,45 @@ a {
     max-width: 3rem;
 }
 
+/* Box Containers */
 .grid__container {
+    background: #ccc;
+    margin: 2rem;
+}
+
+.grid__header {
+    font-family: 'Send Flowers', cursive;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 0;
+    padding: 3rem;
+}
+
+.grid__header--first {
+    margin-left: 0;
+}
+
+.grid__header--second {
+    margin-left: 10rem;
+}
+
+.grid__body {
     margin: 1rem;
     justify-content: center;
 }
 
-.grid__container--items {
+.grid__body--items {
     margin-bottom: 1rem;
 }
 
 @media screen and (min-width: 1024px) {
-    .grid__container {
+    .grid__body {
         display: flex;
         align-content: space-between;
         width: auto;
     }
     
-    .grid__container--items {
+    .grid__body--items {
         margin: 1rem;
     }
 }
