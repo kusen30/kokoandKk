@@ -596,3 +596,17 @@ a {
     transform: scale(1.1);
     border: 1px solid #ccc;
 }
+
+/* Sections - FAQ */
+.faq {
+    padding: 5rem;
+    background: #ccc;
+    margin: 2.5rem;
+}
+
+.faq > h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-family: 'Send Flowers', cursive;
+}
