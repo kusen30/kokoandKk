@@ -632,3 +632,21 @@ a {
     text-align: center;
     letter-spacing: 0.1rem;
 }
+
+/* Fonts */
+.facustom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.facustom--item {
+    transform: scale(1.0);
+}
+
+@media screen and (min-width:1024px) {
+    .facustom--item {
+        transform: scale(1.5);
+    }
+}
