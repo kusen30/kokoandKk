@@ -6,45 +6,25 @@
   <ul class="list nav__list collapsible__content">
     <li class="nav__item"><a href="#">Home</a></li>
     <li class="nav__item"><a href="#">Our Story</a></li>
-    <li class="nav__item"><a href="#">Gallery</a></li>
-    <li class="nav__item"><a href="#">The Details</a></li>
-    <li class="nav__item"><a href="#">FAQs</a></li>
+    <li class="nav__item"><a href="#div_gallery">Gallery</a></li>
+    <li class="nav__item"><a href="#div_details">The Details</a></li>
+    <li class="nav__item"><a href="#div_faqs">FAQs</a></li>
   </ul>
 </nav>
 <div class="hero container">
-  <img src="./images/AnkaraPose2.jpg" alt="" />
+  <img src="./images/AnkaraPose9.jpg" alt="" />
   <div class="hero--content">
     <p class="hero__header">We're Getting Married</p>
   </div>
 </div>
-<div class="grid__container info">
-  <div class="grid__header">
-    <p class="grid__header--first">The</p>
-    <p class="grid__header--second">Wedding</p>
-    <p class="grid__header--third">Day</p>
-  </div>
-  <div class="grid grid__body grid--outline">
-    <div class="grid__body--items">
-      <img src="/images/Kitana.png" alt="A profile picture" />
-    </div>
-    <div class="box grid__body--items">
-      <svg class="icon icon--primary box__icon">
-        <use xlink:href="images/sprite.svg#menu"></use>
-      </svg>
-      <div class="box__button">
-        <button class="btn btn--outline box__button">Lodging</button>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="gallery">
+<div id="div_gallery" class="gallery">
   <a href="/images/AnkaraPose.jpg" target="_blank">
     <img src="/images/AnkaraPose.jpg" alt="" class="gallery__image" />
   </a>
   <a href="/images/AnkaraPose2.jpg" target="_blank">
     <img src="/images/AnkaraPose2.jpg" alt="" class="gallery__image" />
   </a>
-  <a href="/images/AnkaraPos3.jpg" target="_blank">
+  <a href="/images/AnkaraPose3.jpg" target="_blank">
     <img src="/images/AnkaraPose3.jpg" alt="" class="gallery__image" />
   </a>
   <a href="/images/AnkaraPose4.jpg" target="_blank">
@@ -68,6 +48,26 @@
   <a href="/images/AnkaraPose10.jpg" target="_blank">
     <img src="/images/AnkaraPose10.jpg" alt="" class="gallery__image" />
   </a>
+</div>
+<div id="div_details" class="grid__container info">
+  <div class="grid__header">
+    <p class="grid__header--first">The</p>
+    <p class="grid__header--second">Wedding</p>
+    <p class="grid__header--third">Day</p>
+  </div>
+  <div class="grid grid__body grid--outline">
+    <div class="grid__body--items">
+      <img src="/images/Kitana.png" alt="A profile picture" />
+    </div>
+    <div class="box grid__body--items">
+      <svg class="icon icon--primary box__icon">
+        <use xlink:href="images/sprite.svg#menu"></use>
+      </svg>
+      <div class="box__button">
+        <button class="btn btn--outline box__button">Lodging</button>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="grid__container">
   <div class="grid__header">
@@ -113,13 +113,11 @@
     </div>
   </div>
 </div>
-<section class="faq">
+<section id="div_faqs" class="faq">
   <h2>Frequently Asked Questions</h2>
   <div class="collapsible collapsible--expanded">
     <header class="collapsible__header">
-      <h2 class="collapsible_heading">
-        Where will the ceremony and reception be Held
-      </h2>
+      <h2 class="collapsible_heading">Where will the ceremony be held?</h2>
       <svg class="icon--small icon--white collapsible__toggler">
         <use xlink:href="images/sprite.svg#chevron"></use>
       </svg>
@@ -141,5 +139,54 @@
       unde esse? Magni, qui non?
     </div>
   </div>
+  <div class="collapsible">
+    <header class="collapsible__header">
+      <h2 class="collapsible_heading">
+        How do I get there? Will there be parking?
+      </h2>
+      <svg class="icon--small icon--white collapsible__toggler">
+        <use xlink:href="images/sprite.svg#chevron"></use>
+      </svg>
+    </header>
+    <div class="collapsible__content">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe minima
+      unde esse? Magni, qui non?
+    </div>
+  </div>
+  <div class="collapsible">
+    <header class="collapsible__header">
+      <h2 class="collapsible_heading">What time should I arrive?</h2>
+      <svg class="icon--small icon--white collapsible__toggler">
+        <use xlink:href="images/sprite.svg#chevron"></use>
+      </svg>
+    </header>
+    <div class="collapsible__content">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe minima
+      unde esse? Magni, qui non?
+    </div>
+  </div>
+  <div class="collapsible">
+    <header class="collapsible__header">
+      <h2 class="collapsible_heading">What should I wear?</h2>
+      <svg class="icon--small icon--white collapsible__toggler">
+        <use xlink:href="images/sprite.svg#chevron"></use>
+      </svg>
+    </header>
+    <div class="collapsible__content">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe minima
+      unde esse? Magni, qui non?
+    </div>
+  </div>
+  <div class="collapsible">
+    <header class="collapsible__header">
+      <h2 class="collapsible_heading">What should I do if I can't make it?</h2>
+      <svg class="icon--small icon--white collapsible__toggler">
+        <use xlink:href="images/sprite.svg#chevron"></use>
+      </svg>
+    </header>
+    <div class="collapsible__content">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe minima
+      unde esse? Magni, qui non?
+    </div>
+  </div>
 </section>
-<script src="js/main.js"></script>

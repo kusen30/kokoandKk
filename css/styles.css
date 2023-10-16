@@ -19,6 +19,7 @@
 /* Typography */
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -578,13 +579,13 @@ a {
 
 /* Gallery */
 .gallery {
-    /* margin: 2rem; */
     padding: 2rem;
     display: inline-block;
     align-items: center;
+    justify-content: center;
     width: 100%;
-    margin-right: auto;
-    margin-left: auto;
+    /* margin-right: auto;
+    margin-left: auto; */
 }
 
 .gallery__image {
