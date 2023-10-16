@@ -611,3 +611,24 @@ a {
     margin-bottom: 2rem;
     font-family: 'Send Flowers', cursive;
 }
+
+/* Article */
+.article {
+    background: #ccc;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.article--header{
+    text-align: center;
+    font-family: 'Send Flowers', cursive;
+    font-size: 45px;
+    font-weight: bold;
+    line-height: 0;
+    padding: 3rem;
+}
+
+.article--body {
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
