@@ -8,12 +8,21 @@
     --color-body:#918ca4;
     --color-nav: #fff;
     --color-body-darker:#5c5577;
-    --color-border: #ccc;
+    --color-box-background: #ccc;
+    --color-border: #cec;
     --border-radius: 30px;
 }
 
 *, *::after, *::before {
     box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'amalficoast';
+    src: url('/fonts/amalfi/amalfi_coast-webfont.woff2') format('woff2'),
+         url('/fonts/amalfi/amalfi_coast-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 /* Typography */
@@ -316,7 +325,7 @@ a {
 
 /* Navigation Bar */
 .nav {
-    background: #d8d1c7;
+    background: var(--color-box-background);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -400,8 +409,8 @@ a {
 }
 
 .hero__header {
-    font-family: 'Send Flowers', cursive;
-    font-size: 35px;
+    font-family: 'amalficoast', 'Send Flowers', cursive;
+    font-size: 50px;
     color: #fff;
     margin-top: 2rem;
     margin-bottom: 375px;
@@ -491,19 +500,28 @@ a {
 
 /* Box Containers */
 .grid__container {
-    background: #ccc;
+    background: var(--color-box-background);
     margin: 2rem;
 }
 
 .grid__header {
-    font-family: 'Send Flowers', cursive;
+    font-family: 'amalficoast', 'Send Flowers', cursive;
     font-size: 45px;
     font-weight: bold;
     line-height: 0;
-    padding: 3rem;
+    padding: 5rem;
+    align-items: center;
+    color: var(--color-headings);
 }
 
-.grid__header--first {
+.grid__header > h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-family: 'amalficoast', 'Send Flowers', cursive;
+}
+
+/* .grid__header--first {
     margin-left: 0;
 }
 
@@ -513,7 +531,7 @@ a {
 
 .grid__header--third {
     margin-left: 35rem;
-}
+} */
 
 .grid__body {
     margin: 1rem;
@@ -580,12 +598,18 @@ a {
 /* Gallery */
 .gallery {
     padding: 2rem;
+    padding-bottom: 4rem;
     display: inline-block;
     align-items: center;
     justify-content: center;
     width: 100%;
-    /* margin-right: auto;
-    margin-left: auto; */
+}
+
+.gallery > h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-family: 'amalficoast', 'Send Flowers', cursive;
 }
 
 .gallery__image {
@@ -601,7 +625,7 @@ a {
 /* Sections - FAQ */
 .faq {
     padding: 5rem;
-    background: #ccc;
+    background: var(--color-box-background);
     margin: 2.5rem;
 }
 
@@ -609,19 +633,19 @@ a {
     text-align: center;
     margin-top: 0;
     margin-bottom: 2rem;
-    font-family: 'Send Flowers', cursive;
+    font-family: 'amalficoast', 'Send Flowers', cursive;
 }
 
 /* Article */
 .article {
-    background: #ccc;
+    background: var(--color-box-background);
     margin: 2rem;
     padding: 2rem;
 }
 
 .article--header{
     text-align: center;
-    font-family: 'Send Flowers', cursive;
+    font-family: 'amalficoast', 'Send Flowers', cursive;
     font-size: 45px;
     font-weight: bold;
     line-height: 0;
@@ -629,8 +653,16 @@ a {
 }
 
 .article--body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+    /* letter-spacing: 0.1rem; */
+}
+
+.article--title {
+    font-family: 'amalficoast', 'Send Flowers', cursive;
+    font-size: 2rem;
+    padding-top: 2rem;
 }
 
 /* Fonts */
