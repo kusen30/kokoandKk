@@ -4,3 +4,11 @@ collapsibles.forEach((item) =>
     this.classList.toggle("collapsible--expanded");
   })
 );
+
+const gridCollapsibles = document.querySelectorAll(".grid__body--items");
+gridCollapsibles.forEach((item) =>
+  item.addEventListener("click", function() {
+      
+      this.classList.toggle("grid__collapsible");
+  })
+);
