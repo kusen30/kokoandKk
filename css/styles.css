@@ -582,11 +582,13 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
+    height: 65rem;
 }
 
 .grid--contentinfo {
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
 }
 
 .grid__overlay {
@@ -600,7 +602,7 @@ a {
 
 .grid__overlay > p {
     font-family: 'amalficoast', 'Send Flowers', cursive;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 .grid--outline {
@@ -610,6 +612,7 @@ a {
 .grid__content{
     display: none;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .grid__collapsible .grid__content {
@@ -631,6 +634,7 @@ a {
     margin-top: 5rem;
     font-family: 'amalficoast', 'Send Flowers', cursive;
     line-height: 1rem;
+    font-size: 1.5rem;
 }
 
 @media screen and (min-width: 1024px) {
@@ -666,6 +670,16 @@ a {
         text-align: center;
     }
 
+    .grid--contentinfo {
+        text-align: left;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .grid__overlay > p {
+        font-family: 'amalficoast', 'Send Flowers', cursive;
+        font-size: 3rem;
+    }
+
     .grid__footer{
         margin-top: 5rem;
         font-family: 'amalficoast', 'Send Flowers', cursive;
@@ -682,6 +696,11 @@ a {
         width: 35%;
         height: 75rem;
     }
+
+    .grid--contentinfo {
+        text-align: left;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
     
     .grid__overlay {
         position: absolute;    
@@ -690,6 +709,11 @@ a {
         left: 35%;
         font-size: 2.5rem;
         text-align: center;
+    }
+
+    .grid__overlay > p {
+        font-family: 'amalficoast', 'Send Flowers', cursive;
+        font-size: 3rem;
     }
 }
 
@@ -781,7 +805,7 @@ a {
 .article--header{
     text-align: center;
     font-family: 'amalficoast', 'Send Flowers', cursive;
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: bold;
     line-height: 0;
     padding: 3rem;
@@ -816,5 +840,15 @@ a {
 @media screen and (min-width:1024px) {
     .facustom--item {
         transform: scale(1.5);
+    }
+
+    .article--header{
+        text-align: center;
+        font-family: 'amalficoast', 'Send Flowers', cursive;
+        font-size: 45px;
+        font-weight: bold;
+        line-height: 0;
+        padding: 3rem;
+        color: var(--color-headings);
     }
 }
