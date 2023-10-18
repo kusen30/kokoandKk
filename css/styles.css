@@ -116,6 +116,10 @@ p {
     fill: var(--color-body-darker);
 }
 
+.icon--black {
+    color: black;
+}
+
 .icon--white {
     fill: var(--color-nav);
 }
