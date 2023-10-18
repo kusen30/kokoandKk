@@ -914,3 +914,12 @@ a {
         color: var(--color-headings);
     }
 }
+/* Signatory */
+.signatory{
+    font-family: 'amalficoast', 'Send Flowers', cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+}
