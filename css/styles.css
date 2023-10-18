@@ -595,7 +595,8 @@ a {
     margin-left: auto;
     margin-right: auto;
     width: 80%;
-    height: 65rem;
+    height: 45rem;
+    opacity: 0.2;
     z-index: -1;
 }
 
@@ -607,9 +608,9 @@ a {
 
 .grid__overlay {
     position: absolute;    
-    max-width: 60rem;
+    max-width: 100rem;
     top: 4rem;
-    left: 15rem;
+    left: 1rem;
     font-weight: bolder;
     text-align: center;
 }
@@ -651,6 +652,31 @@ a {
     font-size: 1.5rem;
 }
 
+@media screen and (min-width: 768px) {
+    .grid__image--img{
+        display: block;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35%;
+        height: 50rem;
+    }
+    
+    .grid__overlay {
+        position: absolute;    
+        max-width: 60rem;
+        top: 7rem;
+        left: 25%;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .grid__overlay > p {
+        font-family: 'amalficoast', 'Send Flowers', cursive;
+        font-size: 3rem;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .grid__body {
         display: flex;
@@ -673,13 +699,13 @@ a {
         margin-left: auto;
         margin-right: auto;
         width: 35%;
-        height: 55rem;
+        height: 50rem;
     }
     
     .grid__overlay {
         position: absolute;    
         max-width: 60rem;
-        top: 7rem;
+        top: 2.5rem;
         left: 25%;
         text-align: center;
         z-index: 1;
@@ -688,6 +714,7 @@ a {
     .grid--contentinfo {
         text-align: left;
         font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2rem;
     }
 
     .grid__overlay > p {
@@ -699,6 +726,8 @@ a {
         margin-top: 5rem;
         font-family: 'amalficoast', 'Send Flowers', cursive;
         line-height: 1rem;
+        font-size: 2rem;
+        font-weight: bold;
     }
 }
 
@@ -709,26 +738,35 @@ a {
         margin-left: auto;
         margin-right: auto;
         width: 35%;
-        height: 75rem;
+        height: 55rem;
     }
 
     .grid--contentinfo {
         text-align: left;
         font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2.1rem;
     }
     
     .grid__overlay {
         position: absolute;    
         max-width: 60rem;
-        top: 10rem;
+        top:2rem;
         left: 35%;
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         text-align: center;
     }
 
     .grid__overlay > p {
         font-family: 'amalficoast', 'Send Flowers', cursive;
         font-size: 3rem;
+    }
+
+    .grid__footer{
+        margin-top: 5rem;
+        font-family: 'amalficoast', 'Send Flowers', cursive;
+        line-height: 1rem;
+        font-size: 2.1rem;
+        font-weight: bold;
     }
 }
 
