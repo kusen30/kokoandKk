@@ -168,6 +168,10 @@ a {
     color: #000;
 }
 
+.box--pascal {
+    text-transform:capitalize;
+}
+
 /* TODO: Input */
 
 /* Image */
@@ -531,7 +535,7 @@ a {
 .box__button {
     display: block;
     margin: 2rem auto;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .box__separator{
@@ -628,6 +632,7 @@ a {
     display: none;
     text-align: center;
     font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .grid__collapsible .grid__content {
@@ -650,6 +655,10 @@ a {
     font-family: 'amalficoast', 'Send Flowers', cursive;
     line-height: 1rem;
     font-size: 1.5rem;
+}
+
+.grid__list {
+    font-size: 1.2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -689,8 +698,8 @@ a {
     }
 
     .grid__container .grid__collapsible {
-        margin-left: 10rem;
-        margin-right: 10rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
     }
 
     .grid__image--img{
@@ -719,7 +728,7 @@ a {
 
     .grid__overlay > p {
         font-family: 'amalficoast', 'Send Flowers', cursive;
-        font-size: 3rem;
+        font-size: 2.2rem;
     }
 
     .grid__footer{
