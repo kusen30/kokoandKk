@@ -1,0 +1,35 @@
+.bg-transportation-48
+{
+background:url('../images/css-sprite-combined.png') 0px -52px;
+width:48px;height:48px;
+display:inline-block;
+}
+
+.bg-transportation-96
+{
+background:url('../images/css-sprite-combined.png') -48px -4px;
+width:96px;height:96px;
+display:inline-block;
+}
+
+.bg-hotel-bed-50
+{
+background:url('../images/css-sprite-combined.png') -144px -50px;
+width:50px;height:50px;
+display:inline-block;
+}
+
+.bg-hotel-bed-100
+{
+background:url('../images/css-sprite-combined.png') -194px -0px;
+width:100px;height:100px;
+display:inline-block;
+}
+
+.bg-restaurant-64
+{
+background:url('../images/css-sprite-combined.png') -294px -36px;
+width:64px;height:64px;
+display:inline-block;
+}
+
