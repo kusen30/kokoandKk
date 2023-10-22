@@ -838,13 +838,45 @@ a {
 }
 
 .gallery__image {
-    max-width: 400px;
+    max-width: 100rem;
     height: 300px;
 }
 
 .gallery__image:hover {
     transform: scale(1.1);
     border: 1px solid #ccc;
+}
+
+.image__container {
+    display: block;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+@media screen and (min-width: 768px) {
+    .gallery__image {
+        max-width: 100em;
+        height: 300px;
+    }
+
+    .image__container {
+        display: block;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .gallery__image {
+        max-width: 450px;
+        height: 300px;
+    }
+
+    .image__container {
+        display: block;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
 }
 
 /* Sections - FAQ */
@@ -889,6 +921,45 @@ a {
     font-family: 'amalficoast', 'Send Flowers', cursive;
     font-size: 2rem;
     padding-top: 2rem;
+}
+
+.article__button {
+   text-align: right;
+}
+
+.article__button .btn--primary {
+    background: transparent;
+}
+
+.aticle--context {
+
+}
+
+.article--context__summary {
+
+}
+
+.article--context__body {
+    /* display: none; */
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    font-size: 1.8rem;
+    transition: all 0.3s;
+}
+
+.article__expanded .article--context__body {
+    /* display: block; */
+    max-height: 500vh;
+    opacity: 1;
+}
+
+.article__expanded .article__button {
+    display: none;
+}
+
+.article__button > a:hover {
+    color: #fff;
 }
 
 /* Fonts */
