@@ -577,7 +577,8 @@ a {
     text-align: center;
     margin-top: 5rem;
     margin-bottom: 2rem;
-    font-size: 3rem;
+    font-size: 2.2rem;
+    letter-spacing: 0.5rem;
     /* font-family: 'amalficoast', 'Send Flowers', cursive; */
 }
 
@@ -745,6 +746,15 @@ a {
     .grid__overlay > p {
         font-family: 'amalficoast', 'Send Flowers', cursive;
         font-size: 2.2rem;
+    }
+
+    .grid__header > p {
+        text-align: center;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        font-size: 4rem;
+        letter-spacing: 0.5rem;
+        /* font-family: 'amalficoast', 'Send Flowers', cursive; */
     }
 
     .grid__footer{
