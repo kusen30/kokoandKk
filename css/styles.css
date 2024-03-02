@@ -569,6 +569,7 @@ a {
 .grid__container {
     background: var(--color-box-lightbackground);
     margin: 2rem;
+    min-height: 50rem;
 }
 
 .grid__header {
@@ -612,6 +613,10 @@ a {
 
 .grid--bg--image {
     background: url(/images/throne_opac.jpg);
+}
+
+.grid--bg--image__NTWAH {
+    background: url(/images/AnkaraPose.jpg);
 }
 
 .grid--transparent {
@@ -671,6 +676,11 @@ a {
     text-align: center;
     font-size: 1.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.grid__content > p {
+    color: var(--color-nav);
+    font-size: 2rem;
 }
 
 .grid__collapsible .grid__content {
@@ -738,6 +748,7 @@ a {
     .grid__container .grid__collapsible {
         margin-left: 5rem;
         margin-right: 5rem;
+        font-size: 1rem;
     }
 
     .grid__image--img{
