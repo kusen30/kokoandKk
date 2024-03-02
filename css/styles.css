@@ -9,7 +9,9 @@
     --color-nav: #fff;
     --color-body-darker:#5c5577;
     --color-box-background: #ccc;
+    --color-box-lightbackground: #cebd29;
     --color-border: #cec;
+    --color-black: #000;
     --border-radius: 30px;
 }
 
@@ -170,6 +172,11 @@ a {
     border: 2px solid #fff;
 }
 
+.btn--outline__darker {
+    background: var(--color-black);
+    border: 2px solid #fff;
+}
+
 .btn--outline:hover {
     background: #fff;
     border: 2px solid #000;
@@ -231,6 +238,10 @@ a {
 /* Grids */
 .grid {
     display: grid;
+}
+
+.grid__background__transparent {
+    background: blue;
 }
 
 @media screen and (min-width: 768px) {
@@ -354,7 +365,7 @@ a {
 
 /* Navigation Bar */
 .nav {
-    background: var(--color-box-background);
+    background: var(--color-box-lightbackground);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -533,6 +544,10 @@ a {
     opacity: 0.8;
 }
 
+.box--transparent {
+    background: transparent;
+}
+
 .box__icon {
     width: 100%;
     margin-top: 3rem;
@@ -552,7 +567,7 @@ a {
 
 /* Box Containers */
 .grid__container {
-    background: var(--color-box-background);
+    background: var(--color-box-lightbackground);
     margin: 2rem;
 }
 
@@ -904,7 +919,7 @@ a {
 /* Sections - FAQ */
 .faq {
     padding: 5rem;
-    background: var(--color-box-background);
+    background: var(--color-box-lightbackground);
     margin: 2.5rem;
 }
 
@@ -917,7 +932,7 @@ a {
 
 /* Article */
 .article {
-    background: var(--color-box-background);
+    background: var(--color-box-lightbackground);
     margin: 2rem;
     padding: 2rem;
 }
