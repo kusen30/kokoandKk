@@ -387,6 +387,14 @@ a {
     padding: 0.5rem 2rem;
     font-size: 1.5rem;
     border-bottom: 1px solid var(--color-body-darker);
+    margin-top: 1rem;
+}
+
+.nav__item--emphasized {
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: var(--color-primary);
 }
 
 .nav__item > a {
@@ -687,6 +695,9 @@ a {
     /* top: 4rem; */
     margin-top: 4rem;
     margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-content: center;
     /* left: 1rem; */
     font-weight: bolder;
     text-align: center;
@@ -767,6 +778,8 @@ a {
         /* top: 6.5rem; */
         margin-top: 6.5rem;
         margin-bottom: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
         /* left: 15%; */
         text-align: center;
         z-index: 1;
@@ -807,10 +820,12 @@ a {
     .grid__overlay {
         /* position: absolute; */
         align-items: center;
-        max-width: 60rem;
+        max-width: 160rem;
         /* top: 2.5rem; */
         margin-top: 2.5rem;
         margin-bottom: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
         /* left: 25%; */
         text-align: center;
         z-index: 1;
@@ -867,6 +882,8 @@ a {
         /* top: 2rem; */
         margin-top: 2rem;
         margin-bottom: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
         /* left: 30%; */
         font-size: 2.2rem;
         text-align: center;
