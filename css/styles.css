@@ -594,11 +594,12 @@ a {
 }
 
 .grid__header > p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     margin-top: 5rem;
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    letter-spacing: 0rem;
+    margin-bottom: 0rem;
+    font-size: 1.5rem;
+    /* letter-spacing: 0rem; */
     /* font-family: 'amalficoast', 'Send Flowers', cursive; */
 }
 
@@ -859,7 +860,7 @@ a {
 }
 
 .info .grid__header {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     /* width: 100%; */
     margin-right: auto;
     margin-left: auto;
@@ -888,6 +889,30 @@ a {
     /* width: 50%; */
     margin-right: auto;
     margin-left: auto;
+}
+
+@media screen and (min-width: 768px){
+    .info .grid__header {
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 0;
+        letter-spacing: 1rem; */
+        /* font-size: 4rem; */
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .info .grid__header {
+        /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 0;
+        letter-spacing: 1rem; */
+        /* font-size: 4rem; */
+    }
 }
 
 /* Gallery */
