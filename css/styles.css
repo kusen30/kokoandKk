@@ -638,7 +638,7 @@ a {
     line-height: 0;
     padding: 5rem;
     align-items: center;
-    color: var(--color-headings);
+    color: var(--color-nav);
 }
 
 .grid__header > h2 {
@@ -646,6 +646,7 @@ a {
     margin-top: 0;
     margin-bottom: 2rem;
     font-family: 'amalficoast', 'Send Flowers', cursive;
+    color: var(--color-nav);
 }
 
 .grid__header > p {
@@ -692,7 +693,7 @@ a {
 .grid--bg--image__GIFTS {
     background-image: url(/images/Gym2.jpg);
     background-size: 100%;
-    background-repeat: space;
+    background-repeat: no-repeat;
     /* width:100%; */
     height: auto;
     margin: 2rem;
