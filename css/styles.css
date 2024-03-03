@@ -1252,3 +1252,17 @@ a {
     font-size: 3rem;
     align-items: center;
 }
+
+.form__container {
+    margin: 4rem;
+    /* margin-left: auto;
+    margin-right: auto; */
+    padding: 2rem;
+    width: auto;
+    border: 1px solid var(--color-black);
+}
+
+.form_content {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+}
