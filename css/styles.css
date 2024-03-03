@@ -748,7 +748,7 @@ a {
 
 .grid__overlay > p {
     font-family: 'amalficoast', 'Send Flowers', cursive;
-    font-size: 1.5rem;
+    font-size: 3rem;
 }
 
 .grid__body--items > p {
@@ -833,7 +833,7 @@ a {
 
     .grid__overlay > p {
         font-family: 'amalficoast', 'Send Flowers', cursive;
-        font-size: 3rem;
+        font-size: 4rem;
     }
 }
 
@@ -895,7 +895,7 @@ a {
 
     .grid__overlay > p {
         font-family: 'amalficoast', 'Send Flowers', cursive;
-        font-size: 2.2rem;
+        font-size: 3.5rem;
     }
 
     .grid__header > p {
@@ -957,7 +957,7 @@ a {
 
     .grid__overlay > p {
         font-family: 'amalficoast', 'Send Flowers', cursive;
-        font-size: 3rem;
+        font-size: 5rem;
     }
 
     .grid__footer{
