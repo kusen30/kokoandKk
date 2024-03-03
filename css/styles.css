@@ -444,10 +444,6 @@ a {
     border-radius: 5px;
 }
 
-.nav.collapsible--expanded .nav__item--emphasized{
-    display: none;
-}
-
 .nav__container {
     border-radius: 100%;
     /* background: var(--color-body-darker); */
