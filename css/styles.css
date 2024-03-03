@@ -719,8 +719,9 @@ a {
 
 .grid--contentinfo--flush_center {
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'amalficoast', 'Send Flowers', cursive;
     font-size: 1.5rem;
+    letter-spacing: 0rem;
 }
 
 .grid__overlay {
