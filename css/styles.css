@@ -675,12 +675,28 @@ a {
     background: url(/images/throne_opac.jpg);
 }
 
+.grid__container--img {
+    margin: 4rem;
+}
+
 .grid--bg--image__NTWAH {
-    background-image: url(/images/AnkaraPose.jpg);
+    background-image: url(/images/Orange9.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* width:100%; */
+    height: auto;
+    margin: 2rem;
+    background-color: var(--color-black);
 }
 
 .grid--bg--image__GIFTS {
-    background-image: url(/images/AnkaraPose7.jpg);
+    background-image: url(/images/Gym2.jpg);
+    background-size: 100%;
+    background-repeat: space;
+    /* width:100%; */
+    height: auto;
+    margin: 2rem;
+    background-color: var(--color-black);
 }
 
 /* @media screen and (min-width:1024px) {
