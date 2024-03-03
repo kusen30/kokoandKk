@@ -1229,6 +1229,7 @@ a {
         color: var(--color-headings);
     }
 }
+
 /* Signatory */
 .signatory{
     font-family: 'amalficoast', 'Send Flowers', cursive;
@@ -1237,4 +1238,17 @@ a {
     font-size: 2.2rem;
     margin-top: 8rem;
     margin-bottom: 4rem;
+}
+
+/* Form */
+.form__image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.form__image > h2 {
+    font-size: 3rem;
+    align-items: center;
 }
