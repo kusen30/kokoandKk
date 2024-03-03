@@ -717,6 +717,12 @@ a {
     font-size: 1.5rem;
 }
 
+.grid--contentinfo--flush_center {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
 .grid__overlay {
     /* position: absolute; */
     /* position: absolute; */
@@ -732,6 +738,11 @@ a {
     font-weight: bolder;
     text-align: center;
     min-height: 10;
+}
+
+.grid__overlay .grid--contentinfo--flush_center{
+    margin-top: 4rem;
+    margin-bottom: 8rem;
 }
 
 .grid__overlay > p {
@@ -815,6 +826,10 @@ a {
         z-index: 1;
     }
 
+    /* .grid__overlay .grid--contentinfo--flush_center{
+        margin-bottom: 10rem;
+    } */
+
     .grid__overlay > p {
         font-family: 'amalficoast', 'Send Flowers', cursive;
         font-size: 3rem;
@@ -861,10 +876,20 @@ a {
         z-index: 1;
     }
 
+    /* .grid__overlay .grid--contentinfo--flush_center{
+        margin-bottom: 10rem;
+    } */
+
     .grid--contentinfo {
         text-align: left;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 2rem;
+    }
+
+    .grid--contentinfo--flush_center {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.5rem;
     }
 
     .grid__overlay > p {
@@ -905,6 +930,12 @@ a {
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 2.1rem;
     }
+
+    .grid--contentinfo--flush_center {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.5rem;
+    }
     
     .grid__overlay {
         /* position: absolute; */
@@ -918,6 +949,10 @@ a {
         font-size: 2.2rem;
         text-align: center;
     }
+
+    /* .grid__overlay .grid--contentinfo--flush_center{
+        margin-bottom: 10rem;
+    } */
 
     .grid__overlay > p {
         font-family: 'amalficoast', 'Send Flowers', cursive;
