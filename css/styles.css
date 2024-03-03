@@ -485,7 +485,7 @@ a {
 }
 
 .hero__header--sub {
-    margin-top: 22rem;
+    margin-top: 18rem;
 }
 
 .hero__footer {
@@ -615,7 +615,7 @@ a {
     text-align: center;
     margin-top: 5rem;
     margin-bottom: 0rem;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     /* letter-spacing: 0rem; */
     /* font-family: 'amalficoast', 'Send Flowers', cursive; */
 }
