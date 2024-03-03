@@ -719,7 +719,7 @@ a {
 
 .grid--contentinfo--flush_center {
     text-align: center;
-    font-family: 'amalficoast', 'Send Flowers', cursive;
+    /* font-family: 'amalficoast', 'Send Flowers', cursive; */
     font-size: 1.5rem;
     letter-spacing: 0rem;
 }
