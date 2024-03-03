@@ -611,7 +611,7 @@ a {
 }
 
 .grid__header > p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     margin-top: 5rem;
     margin-bottom: 0rem;
@@ -698,6 +698,7 @@ a {
     color: var(--color-nav);
     font-size: 2rem;
     font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .grid--outline {
