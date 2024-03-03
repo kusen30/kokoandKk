@@ -740,7 +740,8 @@ a {
 }
 
 .grid__list {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
+    color: var(--color-nav);
 }
 
 @media screen and (min-width: 768px) {
