@@ -859,12 +859,12 @@ a {
 }
 
 .info .grid__header {
-    font-family: 'Courier New', Courier, monospace;
-    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* width: 100%; */
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 0;
-    letter-spacing: 1rem;
+    /* letter-spacing: 1rem; */
 }
 
 .info .grid__header--second {
@@ -878,10 +878,10 @@ a {
     justify-items: center;
 }
 
-.info .grid__body--items {
-    /* justify-content: center; */
-    /* align-items: center; */
-}
+/* .info .grid__body--items {
+    justify-content: center; */
+    /* align-items: center;
+} */
 
 .info .grid__body--items > img {
     max-width: 80%;
