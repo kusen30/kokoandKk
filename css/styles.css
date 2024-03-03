@@ -407,6 +407,15 @@ a {
     border: 1px solid var(--color-body-darker);
 }
 
+.nav__rsvp > a {
+    color: var(--color-body-darker);
+    transition: color 0.3s;
+}
+
+.nav__rsvp > a:hover{
+    color: #fff;
+}
+
 .nav__item--emphasized {
     font-size: 2rem;
     margin-top: 0.5rem;
