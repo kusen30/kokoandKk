@@ -638,7 +638,7 @@ a {
     line-height: 0;
     padding: 5rem;
     align-items: center;
-    color: var(--color-nav);
+    color: var(--color-headings);
 }
 
 .grid__header > h2 {
@@ -647,6 +647,7 @@ a {
     margin-bottom: 2rem;
     font-family: 'amalficoast', 'Send Flowers', cursive;
     color: var(--color-nav);
+    margin-top: -2rem;
 }
 
 .grid__header > p {
@@ -852,6 +853,10 @@ a {
         font-family: 'amalficoast', 'Send Flowers', cursive;
         font-size: 4rem;
     }
+
+    .grid__header > h2 {
+        margin-top: -2rem;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -931,6 +936,10 @@ a {
         font-size: 2rem;
         font-weight: bold;
     }
+
+    .grid__header > h2 {
+        margin-top: -2rem;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -983,6 +992,10 @@ a {
         line-height: 1rem;
         font-size: 2.1rem;
         font-weight: bold;
+    }
+
+    .grid__header > h2 {
+        margin-top: -2rem;
     }
 }
 
