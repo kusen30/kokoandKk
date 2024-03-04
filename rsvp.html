@@ -46,75 +46,49 @@
       <div class="form__container">
         <form action="#" class="form__contact">
           <div class="form__content">
-            <div>
-              <div class="form__block--label">
-                <p>Name (required)</p>
-              </div>
+            <div class="form__block--label">
+              <p id="lblName">Name (required)</p>
             </div>
             <div class="form__grid">
               <div class="form__block">
                 <p>First Name</p>
-                <input type="text" id="email" name="email" required />
+                <input type="text" id="firstname" name="firstname" required />
               </div>
               <div class="form__block">
                 <p>Last Name</p>
-                <input type="text" id="email" name="email" required />
+                <input type="text" id="lastname" name="lastname" required />
               </div>
             </div>
-            <div>
-              <div class="form__block">
-                <p>Email (required)</p>
-                <input type="text" id="email" name="email" required />
-              </div>
+            <div class="form__block">
+              <p>Email (required)</p>
+              <input type="text" id="email" name="email" required />
             </div>
-            <div>
-              <div class="form__block">
-                <p>Will you be attending? (required)</p>
-                <input
-                  type="text"
-                  id="isAttending"
-                  name="isAttending"
-                  required
-                />
-              </div>
+            <div class="form__block">
+              <p>Will you be attending? (required)</p>
+              <select name="attendance" id="attendance" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                <option value="maybe">Maybe</option>
+              </select>
+              <!-- <input type="text" id="isAttending" name="isAttending" required /> -->
             </div>
-            <div>
-              <div class="form__block">
-                <p>Names of Guests in your party</p>
-                <input type="text" id="guestCount" name="guessCount" required />
-              </div>
+            <div class="form__block">
+              <p>Names of Guests in your party</p>
+              <input type="text" id="guestCount" name="guessCount" required />
             </div>
-            <div>
-              <div class="form__block">
-                <p>Any food restrictions?</p>
-                <input
-                  type="text"
-                  id="foodRestriction"
-                  name="foodRestriction"
-                  required
-                />
-              </div>
+            <div class="form__block">
+              <p>Any food restrictions?</p>
+              <input type="text" id="foodRestriction" name="foodRestriction" />
             </div>
-            <div>
-              <div class="form__block">
-                <p>Questions or Comments</p>
-                <input type="text" id="comments" name="comments" required />
-              </div>
+            <div class="form__block">
+              <p>Questions or Comments</p>
+              <textarea
+                placeholder="Please let us know if you have additional questions..."
+                id="comments"
+                name="comments"
+              ></textarea>
+              <!-- <input type="text" id="comments" name="comments" required /> -->
             </div>
-            <!-- <label for="Firstname" id="lblfirstName">First Name:</label>
-            <input type="text" id="firstname" name="firstname" required />
-            <br />
-            <label for="LastName" id="lbllastName">Last name:</label>
-            <input type="text" id="lastname" name="lastname" required />
-            <br />
-            <label for="Message" id="lblmessage">Message:</label>
-            <textarea
-              id="optionalMessage"
-              name="optionalMessage"
-              placeholder="Please let us know if you have any questions here ..."
-              style="height: 100px; font-size: 2rem"
-            ></textarea>
-            <br /> -->
             <button type="submit" value="Send Email" id="submit">Submit</button>
             <!-- <input type="submit" value="Send Email" id="submit" /> -->
           </div>
