@@ -25,13 +25,13 @@ submit.addEventListener('submit', (e)=>{
     <br/>
     `
     /* Email Sender*/
-    Email.send({
-        SecureToken: "01fd5af2-9a05-4cea-b9b7-2a1bbb6bb94b",
-        To: "kokoandinyene@gmail.com",
-        From: "kokoandinyene@gmail.com",
-        Subject: "This is the subject",
-        Body: emailContent
-    }).then(
-        (message) => alert(message)
-    );
+    // Email.send({
+    //     SecureToken: "01fd5af2-9a05-4cea-b9b7-2a1bbb6bb94b",
+    //     To: "kokoandinyene@gmail.com",
+    //     From: "kokoandinyene@gmail.com",
+    //     Subject: "This is the subject",
+    //     Body: emailContent
+    // }).then(
+    //     (message) => alert(message)
+    // );
 });
