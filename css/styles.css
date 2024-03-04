@@ -716,7 +716,7 @@ a {
 } 
 
 .grid--margin__NTWAH {
-    padding-top: 45rem;
+    padding-top: 35rem;
 }
 
 .grid--bg--image__GIFTS {
@@ -898,9 +898,9 @@ a {
         padding-top: 10rem;
     } */
 
-    .grid--margin__NTWAH {
+    /* .grid--margin__NTWAH {
         padding-top: 100rem;
-    }
+    } */
 }
 
 @media screen and (min-width: 1024px) {
