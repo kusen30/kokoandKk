@@ -593,7 +593,7 @@ a {
     }
 
     .hero__header--sub {
-        margin-top: 12rem;
+        margin-top: 6rem;
     }
 
     .hero__footer {
@@ -734,7 +734,7 @@ a {
 }
 
 .grid--margin__Gifts {
-    padding-top: 30rem;
+    padding-top: 10rem;
 }
 
 /* @media screen and (min-width:1024px) {
