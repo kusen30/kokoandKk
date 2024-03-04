@@ -714,6 +714,10 @@ a {
     text-shadow: 2px 2px #ff0000;
 } 
 
+.grid--margin__NTWAH {
+    padding-top: 10rem;
+}
+
 .grid--bg--image__GIFTS {
     background-image: url(/images/Gym2.jpg);
     background-size: 100%;
@@ -888,6 +892,10 @@ a {
     .grid--margin__Gifts {
         padding-top: 10rem;
     }
+
+    .grid--margin__NTWAH {
+        padding-top: 5rem;
+    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -966,6 +974,10 @@ a {
 
     .grid__header > h2 {
         margin-top: -2rem;
+    }
+
+    .grid--margin__NTWAH {
+        padding-top: 5rem;
     }
 }
 

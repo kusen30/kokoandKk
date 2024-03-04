@@ -6,7 +6,8 @@ const lastName = document.getElementById("lastname");
 const email = document.getElementById("email");
 const isAttending = document.getElementById("isAttending");
 const attendance = document.getElementById("attendance");
-const guestCount = document.getElementById("guestCount");
+const partyCount = document.getElementById("partyCount");
+const guestNames = document.getElementById("guestNames");
 const foodRestriction = document.getElementById("foodRestriction");
 const comments = document.getElementById("comments");
 const submit = document.getElementsByClassName("form__contact")[0];
@@ -28,7 +29,9 @@ submit.addEventListener('submit', (e)=>{
     <br/>
     <b>Attending: </b>${attendance.value}
     <br/>
-    <b>Guest Count: </b>${guestCount.value}
+    <b>Guest Count: </b>${partyCount.value}
+    <br/>
+    <b>Guest Names: </b>${guestNames.value}
     <br/>
     <b>Dietary Restrictions: </b>${foodRestriction.value}
     <br/>
