@@ -428,6 +428,7 @@ a {
     font-size: 2rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
+    letter-spacing: 0rem;
     background-color: var(--color-nav);
 }
 
@@ -733,7 +734,7 @@ a {
 }
 
 .grid--margin__Gifts {
-    padding-top: 10rem;
+    padding-top: 30rem;
 }
 
 /* @media screen and (min-width:1024px) {
@@ -839,6 +840,10 @@ a {
     border: 2px solid white;
 }
 
+.grid__content--opaque {
+    /* color: var(--color-primary); */
+}
+
 .grid__container .grid__collapsible {
     margin-bottom: 10rem;
     margin-top: 10rem;
@@ -894,7 +899,7 @@ a {
     }
 
     .grid--margin__NTWAH {
-        padding-top: 50rem;
+        padding-top: 100rem;
     }
 }
 
@@ -974,6 +979,10 @@ a {
 
     .grid__header > h2 {
         margin-top: -2rem;
+    }
+
+    .grid--margin__Gifts {
+        padding-top: 10rem;
     }
 
     .grid--margin__NTWAH {
