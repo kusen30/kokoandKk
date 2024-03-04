@@ -406,7 +406,7 @@ a {
     margin-top: 0.2rem;
     margin-right: 1rem;
     margin-bottom: 1rem;
-    background-color: var(--color-primary);
+    background-color: var(--color-nav);
     border: 1px solid var(--color-body-darker);
 }
 
@@ -416,14 +416,28 @@ a {
 }
 
 .nav__rsvp > a:hover{
-    color: #fff;
+    color: var(--color-box-lightbackground);
 }
 
 .nav__item--emphasized {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid var(--color-body-darker);
+    margin-top: 1rem;
     font-size: 2rem;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
-    background-color: var(--color-primary);
+    background-color: var(--color-nav);
+}
+
+.nav__item--emphasized > a:hover{
+    color: var(--color-box-lightbackground);
+}
+
+.nav__item--emphasized > a {
+    color: var(--color-black);
+    transition: color 0.3s;
 }
 
 .nav__item > a {
@@ -553,7 +567,7 @@ a {
     }
 
     .hero__header--sub {
-        margin-top: 22rem;
+        margin-top: 14rem;
     }
 
     .hero__footer {
