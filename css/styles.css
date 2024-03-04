@@ -411,7 +411,7 @@ a {
 }
 
 .nav__rsvp > a {
-    color: var(--color-body-darker);
+    color: var(--color-black);
     transition: color 0.3s;
 }
 
@@ -427,7 +427,7 @@ a {
 }
 
 .nav__item > a {
-    color: var(--color-body-darker);
+    color: var(--color-black);
     transition: color 0.3s;
 }
 
@@ -523,6 +523,7 @@ a {
     color: #fff;
     margin-top: 2rem;
     margin-bottom: 375px;
+    text-shadow: 2px 2px #ff0000;
 }
 
 .hero__header--sub {
@@ -695,6 +696,10 @@ a {
     background-color: var(--color-black);
 }
 
+.grid--bg--image__NTWAH .grid__header{
+    text-shadow: 2px 2px #ff0000;
+} 
+
 .grid--bg--image__GIFTS {
     background-image: url(/images/Gym2.jpg);
     background-size: 100%;
@@ -703,6 +708,10 @@ a {
     height: auto;
     margin: 2rem;
     background-color: var(--color-black);
+}
+
+.grid--bg--image__GIFTS .grid__header{
+    text-shadow: 2px 2px #ff0000;
 }
 
 .grid--margin__Gifts {
@@ -825,7 +834,7 @@ a {
 }
 
 .grid__list {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: var(--color-nav);
 }
 
