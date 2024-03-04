@@ -12,6 +12,7 @@
     --color-box-verylightbackground: #eee;
     --color-box-lightbackground: #cebd29;
     --color-border: #cec;
+    --color-box-coral: #e29014;
     --color-black: #000;
     --border-radius: 30px;
 }
@@ -371,7 +372,8 @@ a {
 
 /* Navigation Bar */
 .nav {
-    background: var(--color-box-lightbackground);
+    /* background: var(--color-box-lightbackground); */
+    background: var(--color-box-coral);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -627,7 +629,8 @@ a {
 
 /* Box Containers */
 .grid__container {
-    background: var(--color-box-lightbackground);
+    /* background: var(--color-box-lightbackground); */
+    background: var(--color-box-coral);
     margin: 2rem;
     min-height: 50rem;
 }
@@ -700,6 +703,10 @@ a {
     height: auto;
     margin: 2rem;
     background-color: var(--color-black);
+}
+
+.grid--margin__Gifts {
+    padding-top: 10rem;
 }
 
 /* @media screen and (min-width:1024px) {
@@ -846,10 +853,6 @@ a {
         z-index: 1;
     }
 
-    /* .grid__overlay .grid--contentinfo--flush_center{
-        margin-bottom: 10rem;
-    } */
-
     .grid__overlay > p {
         font-family: 'amalficoast', 'Send Flowers', cursive;
         font-size: 4rem;
@@ -857,6 +860,10 @@ a {
 
     .grid__header > h2 {
         margin-top: -2rem;
+    }
+
+    .grid--margin__Gifts {
+        padding-top: 10rem;
     }
 }
 
@@ -899,10 +906,6 @@ a {
         text-align: center;
         z-index: 1;
     }
-
-    /* .grid__overlay .grid--contentinfo--flush_center{
-        margin-bottom: 10rem;
-    } */
 
     .grid--contentinfo {
         text-align: left;
@@ -977,10 +980,6 @@ a {
         font-size: 2.2rem;
         text-align: center;
     }
-
-    /* .grid__overlay .grid--contentinfo--flush_center{
-        margin-bottom: 10rem;
-    } */
 
     .grid__overlay > p {
         font-family: 'amalficoast', 'Send Flowers', cursive;
@@ -1136,7 +1135,8 @@ a {
 
 /* Article */
 .article {
-    background: var(--color-box-lightbackground);
+    /* background: var(--color-box-lightbackground); */
+    background: var(--color-box-coral);
     margin: 2rem;
     padding: 2rem;
 }
