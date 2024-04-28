@@ -134,8 +134,6 @@ dialogIcon.addEventListener('click', (e) => {
 });
 
 attendance.addEventListener('change', (e) => {
-    alert("dropdown changed")
-
     if(attendance.value == 'no'){
         attendanceControl.style.visibility = 'collapse';
         attendanceControl.style.height = '0rem';
@@ -151,23 +149,6 @@ attendance.addEventListener('change', (e) => {
         EnforceRequired(true);
     }
 });
-
-function attendanceToggle(){
-    if(attendance.value == 'no'){
-        attendanceControl.style.visibility = 'collapse';
-        attendanceControl.style.height = '0rem';
-
-        // -- Update required bindings
-        EnforceRequired(false);
-    }
-    else{
-        attendanceControl.style.visibility = 'visible';
-        attendanceControl.style.height = 'auto';
-
-        // -- Update required bindings
-        EnforceRequired(true);
-    }
-}
 
 // ** Helpers ** 
 function Confirm(action){
