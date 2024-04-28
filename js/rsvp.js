@@ -44,7 +44,7 @@ submit.addEventListener('submit', (e)=>{
     <br/>
     `
 
-    let emailContent_User = ''
+    let emailContent_User = '';
 
     // alert(emailContent_User);
     // alert(attendance.value);
@@ -99,7 +99,7 @@ submit.addEventListener('submit', (e)=>{
 
     /* Email Sender*/
     if(dialogState == "Open"){
-        alert("RSVP already received!")
+        alert("RSVP already received!");
     }
     else{
         // Send to Control
@@ -131,6 +131,25 @@ dialogIcon.addEventListener('click', (e) => {
 
     formDialog.style.visibility = 'collapse';
     formDialog.style.height = '0rem';
+});
+
+attendance.addEventListener('change', (e) => {
+    alert("dropdown changed")
+
+    if(attendance.value == 'no'){
+        attendanceControl.style.visibility = 'collapse';
+        attendanceControl.style.height = '0rem';
+
+        // -- Update required bindings
+        EnforceRequired(false);
+    }
+    else{
+        attendanceControl.style.visibility = 'visible';
+        attendanceControl.style.height = 'auto';
+
+        // -- Update required bindings
+        EnforceRequired(true);
+    }
 });
 
 function attendanceToggle(){
