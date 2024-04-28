@@ -43,7 +43,7 @@ submit.addEventListener('submit', (e)=>{
     <b>Comments: </b>${comments.value}
     <br/>
     `
-    
+
     let emailContent_User = ''
 
     // alert(emailContent_User);
@@ -166,8 +166,8 @@ function EnforceRequired(action){
         // guestNames.attr('required', true);
         // alert(partyCount.getAttribute("type"));
         // alert(guestNames.getAttribute("type"));
-        partyCount.setAttribute("required", "required");
-        guestNames.setAttribute("required", "required");
+        partyCount.setAttribute("required", true);
+        guestNames.setAttribute("required", true);
     }
     else if(action = 'false'){
         // partyCount.attr('required', true);
