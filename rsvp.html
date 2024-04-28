@@ -63,37 +63,48 @@
             </div>
             <div class="form__block">
               <p>Will you be attending? (required)</p>
-              <select name="attendance" id="attendance" required>
+              <select
+                name="attendance"
+                id="attendance"
+                onchange="attendanceToggle()"
+                required
+              >
                 <option value="yes">Yes</option>
                 <option value="no">No</option>
                 <option value="maybe">Maybe</option>
               </select>
               <!-- <input type="text" id="isAttending" name="isAttending" required /> -->
             </div>
-            <div class="form__block">
-              <p>Number of persons in your party? (required)</p>
-              <select name="partyCount" id="partyCount" required>
-                <option value="one">1</option>
-                <option value="two">2</option>
-              </select>
-              <!-- <input type="text" id="isAttending" name="isAttending" required /> -->
-            </div>
-            <div class="form__block">
-              <p>Names of Guests in your party</p>
-              <input type="text" id="guestNames" name="guessNames" required />
-            </div>
-            <div class="form__block">
-              <p>Any food restrictions?</p>
-              <input type="text" id="foodRestriction" name="foodRestriction" />
-            </div>
-            <div class="form__block">
-              <p>Questions or Comments</p>
-              <textarea
-                placeholder="Please let us know if you have additional questions..."
-                id="comments"
-                name="comments"
-              ></textarea>
-              <!-- <input type="text" id="comments" name="comments" required /> -->
+            <div id="attendanceControl">
+              <div class="form__block">
+                <p>Number of persons in your party? (required)</p>
+                <select name="partyCount" id="partyCount" required>
+                  <option value="one">1</option>
+                  <option value="two">2</option>
+                </select>
+                <!-- <input type="text" id="isAttending" name="isAttending" required /> -->
+              </div>
+              <div class="form__block">
+                <p>Names of Guests in your party</p>
+                <input type="text" id="guestNames" name="guessNames" required />
+              </div>
+              <div class="form__block">
+                <p>Any food restrictions?</p>
+                <input
+                  type="text"
+                  id="foodRestriction"
+                  name="foodRestriction"
+                />
+              </div>
+              <div class="form__block">
+                <p>Questions or Comments</p>
+                <textarea
+                  placeholder="Please let us know if you have additional questions..."
+                  id="comments"
+                  name="comments"
+                ></textarea>
+                <!-- <input type="text" id="comments" name="comments" required /> -->
+              </div>
             </div>
             <button type="submit" value="Send Email" id="submit">Submit</button>
             <!-- <input type="submit" value="Send Email" id="submit" /> -->
