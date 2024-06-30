@@ -419,6 +419,10 @@ a {
     color: var(--color-box-lightbackground);
 }
 
+.nav__item--link {
+    display: none;
+}
+
 .nav__item--emphasized {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 0.5rem 2rem;
