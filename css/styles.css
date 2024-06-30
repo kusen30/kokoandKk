@@ -1498,3 +1498,10 @@ a {
     padding: 5px 10px;
     cursor: pointer
 }
+
+.qrblock{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
