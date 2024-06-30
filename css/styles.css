@@ -1522,7 +1522,7 @@ a {
     margin-bottom: 10rem;
 }
 
-.qrblock__content{
+.qrblock > h2{
     text-align: center;
     font-size: 3rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
